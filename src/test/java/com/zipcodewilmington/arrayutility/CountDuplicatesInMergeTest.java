@@ -1,13 +1,18 @@
 package com.zipcodewilmington.arrayutility;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
+import com.zipcodewilmington.arrayutility.UnitTestingUtils;
+
 
 /**
  * Created by leon on 3/1/18.
  * The purpose of this class is to thoroughly test the method countDuplicatesInMerge()
  */
 public class CountDuplicatesInMergeTest {
+
+
     @Test
     public void integerTest() {
         // Given
